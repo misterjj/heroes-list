@@ -1,0 +1,36 @@
+@import "~bootstrap/scss/bootstrap";
+
+.heroes-list {
+
+  .hero {
+    width: 200px;
+    text-decoration: none;
+    transform: skew(-3deg, 0deg);
+
+    .img {
+      height: 250px;
+      background-size: cover;
+
+      &.cra { background-image: url('../images/cra.jpg')}
+      &.cra2 { background-image: url('../images/cra2.jpg')}
+      &.eniripsa { background-image: url('../images/eniripsa.jpg')}
+      &.osamodas { background-image: url('../images/osamodas.jpg')}
+      &.osamodas2 { background-image: url('../images/osamodas2.jpg')}
+      &.osamodas3 { background-image: url('../images/osamodas3.jpg')}
+      &.sacrieur { background-image: url('../images/sacrieur.jpg')}
+      &.sacrieur2 { background-image: url('../images/sacrieur2.jpg')}
+      &.scram { background-image: url('../images/scram.jpg')}
+      &.scram2 { background-image: url('../images/scram2.jpg')}
+      &.scram3 { background-image: url('../images/scram3.jpg')}
+    }
+  }
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: all .5s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+  width: 0;
+}
+
